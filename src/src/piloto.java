@@ -5,6 +5,22 @@ public class piloto {
     double totalDistance;
     int championsWon;
 
+    public piloto(int pilotoID) {
+        this.namePilot = "Predeterminado";
+        this.pilotID = pilotoID;
+        this.age = 20;
+        this.totalDistance = 0;
+        this.championsWon = 0;
+    }
+
+    public piloto(String namePilot, int pilotID, int age) {
+        this.namePilot = namePilot;
+        this.pilotID = pilotID;
+        this.age = age;
+        this.totalDistance = 0;
+        this.championsWon = 0;
+    }
+
     public piloto(String namePilot, int pilotID, int age, double totalDistance, int championsWon) {
         this.namePilot = namePilot;
         this.pilotID = pilotID;
